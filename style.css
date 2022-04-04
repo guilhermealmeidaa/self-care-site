@@ -59,4 +59,33 @@ body{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.content-main-container-products{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.content-main-products{
+    width: 33%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.content-main-products-item{
+    display: flex;
+    justify-content: center;
+}
+.content-main-products-description{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.product-name{
+
+}
+.product-price{
+
 }
