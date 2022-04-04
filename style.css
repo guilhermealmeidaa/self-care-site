@@ -73,19 +73,32 @@ body{
     margin: auto;
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
 }
 .content-main-products-item{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 .content-main-products-description{
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    align-items: center;
+}
+.product-image{
+    width: 250px;
 }
 .product-name{
-
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 5px;    
 }
 .product-price{
-
+    display: flex;
+    font-family: 'Lato', sans-serif;
+}
+.product-prince-number{
+    color: #6aad37;
+    font-weight: 600;
+    margin-left: 2px;
 }
